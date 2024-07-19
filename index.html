@@ -8,25 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input class="display" readonly>
-    <div class="buttons">
-        <button onclick="addToDisplay">+</button>
-        <button onclick="addToDisplay">7</button>
-        <button onclick="addToDisplay">8</button>
-        <button onclick="addToDisplay">9</button>
-        <button onclick="addToDisplay">-</button>
-        <button onclick="addToDisplay">4</button>
-        <button onclick="addToDisplay">5</button>
-        <button onclick="addToDisplay">6</button>
-        <button onclick="addToDisplay">*</button>
-        <button onclick="addToDisplay">1</button>
-        <button onclick="addToDisplay">2</button>
-        <button onclick="addToDisplay">3</button>
-        <button onclick="addToDisplay">/</button>
-        <button onclick="addToDisplay">0</button>
-        <button onclick="addToDisplay">.</button>
-        <button onclick="clearDisplay">AC</button>
-        <button onclick="calculate">=</button>
+    <input id="display" readonly>
+    <div class="container">
+        
+        <div class="buttons">
+            <button class="operator" onclick="addToDisplay">+</button>
+            <button onclick="addToDisplay">7</button>
+            <button onclick="addToDisplay">8</button>
+            <button onclick="addToDisplay">9</button>
+            <button class="operator" onclick="addToDisplay">-</button>
+            <button onclick="addToDisplay">4</button>
+            <button onclick="addToDisplay">5</button>
+            <button onclick="addToDisplay">6</button>
+            <button class="operator" onclick="addToDisplay">*</button>
+            <button onclick="addToDisplay">1</button>
+            <button onclick="addToDisplay">2</button>
+            <button onclick="addToDisplay">3</button>
+            <button class="operator" onclick="addToDisplay">/</button>
+            <button onclick="addToDisplay">0</button>
+            <button onclick="addToDisplay">.</button>
+            <button class="equal" onclick="calculate">=</button>
+            <button class="operator" onclick="clearDisplay">AC</button>
     </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
