@@ -58,12 +58,22 @@ button.operator:active{
     background-color: rgb(129, 110, 129);
 }
 button.equal{
-    background-color: rgb(128, 88, 130);
+    background-color: rgb(143, 66, 154);
 }
 button.equal:hover{
     background-color: rgb(128, 88, 180);
 }
 button.equal:active{
+    background-color: rgb(101, 90, 101);
+    box-shadow: 3px 3px 3px rgb(101, 13, 101);
+}
+button.clear{
+    background-color: rgb(128, 88, 130);
+}
+button.clear:hover{
+    background-color: rgb(128, 88, 180);
+}
+button.clear:active{
     background-color: rgb(101, 90, 101);
     box-shadow: 3px 3px 3px rgb(101, 13, 101);
 }
