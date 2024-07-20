@@ -12,6 +12,8 @@ body{
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     max-width: 500px;
+    border: 3.5px solid rgb(142, 57, 226);
+    border-top: 0;
 }
 .buttons{
     display: grid;
@@ -39,8 +41,10 @@ button{
     font-size: 40px;
     color: white;
     font-weight: 600;
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(53, 49, 49);
     text-align: right;
+    border: 3.5px solid rgb(142, 57, 226);
+    border-bottom: 0;
 }
 button:hover{
     background-color: rgb(63, 63, 80);
